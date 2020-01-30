@@ -1,0 +1,8 @@
+<!-- <app-todo-item *ngFor="let todo of todos"> </app-todo-item> -->
+<div [ngClass]="setClasses()">
+<p>
+  <input type="checkbox" />
+  {{todo.title}}
+  <button class="del"
+  >X</button></p>
+</div>
